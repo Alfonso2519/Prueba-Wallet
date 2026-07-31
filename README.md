@@ -102,4 +102,3 @@ La aplicación queda disponible en `http://localhost:5173`.
 ## Notas
 
 - Las tablas se gestionan con **Alembic**. Corre `alembic upgrade head` dentro de `backend/` para crear `wallet.db` con la estructura completa antes de levantar el servidor.
-- No se implementan pagos reales, 2FA, recuperación de contraseña ni despliegue en la nube, conforme al alcance definido en la prueba técnica.
